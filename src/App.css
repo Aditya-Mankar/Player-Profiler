@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background-color: #5e60ce;
+  text-align: center;
+}
+
+.container {
+  margin-top: 175px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background-color: #a8dadc;
+  font-family: "Racing Sans One", cursive;
+  border: 3px solid;
+  text-align: center;
+  overflow: hidden;
+}
+
+.inputFields {
+  display: flex;
+  justify-content: center;
+}
+
+.ipBoxes {
+  margin: 20px;
+  padding: 5px 0px 5px 0px;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.ipBoxes:focus {
+  border: 3px #555;
+}
+
+.searchButton {
+  width: 90%;
+  background-color: #5e60ce;
+  border: 7px #555;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 32px;
+}
+
+.about {
+  font-family: "Bebas Neue", cursive;
+}
+
+.footer {
+  font-family: monospace;
+  background-color: #a8dadc;
+  margin-top: 125px;
+  padding: 10px;
+  margin-left: 400px;
+  margin-right: 375px;
+  border: 3px solid;
+}
+
+.goBackBtnDiv {
+  text-align: left;
+}
+
+.goBackBtn {
+  background-color: #a8dadc;
+  border: 3px solid black;
+  border-radius: 3px;
+  color: black;
+  padding: 10px 32px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.infoContainer {
+  background-color: #a8dadc;
+  border: 3px solid;
+  margin-top: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.imgDiv {
+  border: 2px solid grey;
+  margin-top: 10px;
+}
+
+.playerName {
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 5px;
+}
+
+.pInfo {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.pProfile {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.invalidContainer {
+  background-color: #a8dadc;
+  font-family: "Racing Sans One", cursive;
+  border: 3px solid;
+  text-align: center;
+  margin-top: 175px;
+  margin-left: 450px;
+  margin-right: 450px;
+}
